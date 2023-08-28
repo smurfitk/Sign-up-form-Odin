@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 35vw;
+    background-image: url(./images/photo-1585202900225-6d3ac20a6962.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45%;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.odin-logo {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+.right {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.first {
+    height: 35vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second {
+    height: 35vh;
+    background-color: white;
+    -webkit-box-shadow: 6px 14px 9px -7px #E8E8E8; 
+    box-shadow: 6px 14px 9px -7px #E8E8E8;
+}
+
+.form-title {
+    margin-left: 5%;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.third {
+    height: 30vh;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
