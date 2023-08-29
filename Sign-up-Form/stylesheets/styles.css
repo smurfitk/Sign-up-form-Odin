@@ -8,6 +8,10 @@ body {
     padding: 0;
 }
 
+h1 {
+    color: white;
+}
+
 .main {
     width: 100vw;
     height: 100vh;
@@ -24,18 +28,28 @@ body {
 }
 
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 45%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     opacity: 0.5;
+    overflow: hidden;
 }
 
 .odin-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face {
+    width: 16%;
+    height: 16%;
+}
+
+.logo {
     text-align: center;
-    font-size: 55px;
-    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 60px;
 }
 
 .right {
@@ -45,6 +59,10 @@ body {
     background-color: #fafafa;
 }
 
+
+
+/* First part */
+
 .first {
     height: 35vh;
     display: flex;
@@ -53,6 +71,10 @@ body {
     margin-left: 5%;
     margin-bottom: 5%;
 }
+
+
+
+/* Second part */
 
 .second {
     height: 35vh;
@@ -78,9 +100,90 @@ body {
     margin: 5%;
 }
 
+#firstName {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#email {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#password {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.form-div-right {
+    margin-left: 8%;
+}
+
+#lastName {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#phoneNumber {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#confirmPassword {
+    width: 200px;
+    height: 20px;
+    border: 0.8px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
+
+/* Third part */
+
 .third {
     height: 30vh;
     margin-top: 5%;
     margin-left: 5%;
+}
+
+.btn-create-account {
+    background-color: #596D48;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    width: 20%;
+    border: none;
+}
+
+.btn-create-account:active {
+    background-color: #343f2a !important;
+}
+
+.log-in {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#log-in-link {
+    margin-left: 1%;
+    text-decoration: none;
+    color: #596D48;
 }
 

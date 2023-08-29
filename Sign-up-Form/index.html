@@ -10,10 +10,14 @@
 <body>
     <div class="main">
         <div class="left">
-            <div class="logo-container">
-                <h1 class="odin-logo">Odin</h1>
-            </div>
+            <section class="logo-container">
+                <div class="odin-logo">
+                    <img class="face" src="./stylesheets/images/odin-lined.png" alt="Odin Face">
+                    <h1 class="logo">Odin</h1>
+                </div>
+            </section>
         </div>
+
         <div class="right">
             <div class="first">
                 <h3>
@@ -24,6 +28,7 @@
                     You <em>know</em> you want to.
                 </h3>
             </div>
+
             <div class="second">
                 <h3 class="form-title">Let's do this</h3>
                 <form action="#" method="get" class="form-main-div">
@@ -48,7 +53,7 @@
                             <input type="text" id="lastName" name="last_name">
                         </div>
                         <div class="form-div">
-                            <label for="email">Email</label>
+                            <label for="phoneNumber">Phone Number</label>
                             <input type="tel" id="phoneNumber" name="phone_number">
                         </div>
                         <div class="form-div">
@@ -58,9 +63,13 @@
                     </div>
                 </form>
             </div>
+
             <div class="third">
                 <button type="button" class="btn-create-account">Create Account</button>
-                <h5>Already have an account?</h5>
+                <div class="log-in">
+                    <p>Already have an account?</p>
+                    <a href="#" id="log-in-link">Log In</a>
+                </div>
             </div>
         </div>
     </div>
